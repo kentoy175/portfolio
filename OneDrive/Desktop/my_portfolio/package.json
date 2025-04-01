@@ -1,0 +1,20 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "Portfolio website",
+  "main": "server.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node server.js",
+    "build": "cd portfolio && npm install && npm run build",
+    "dev": "cd portfolio && npm run dev",
+    "postinstall": "cd portfolio && npm install"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "@emailjs/browser": "^4.4.1"
+  },
+  "engines": {
+    "node": ">=18.18.0"
+  }
+}
